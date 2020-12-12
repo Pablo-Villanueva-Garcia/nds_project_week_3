@@ -1,0 +1,48 @@
+.throughline{
+  text-decoration: line-through;
+}
+
+.task_img{
+  width:40px;
+  height: 40px;
+  border-radius: 30px;
+;
+
+}
+
+.alert{
+  top: 0;
+  right:0;
+}
+.Alertlimit{
+  background-color: coral;
+  padding: 10px;
+  
+  
+}
+
+input[type=checkbox] {
+  transform: scale(1.9);
+  
+}
+
+.alertotal{
+  top: 50px;
+  right:0;
+}
+
+.slideLeft {
+  position: absolute;
+  transition-property: background-color, color, left;
+  transition-duration: 5s;
+  -webkit-transition-property: background-color, color, left;
+  -webkit-transition-duration: 5s;
+  -o-transition-property: background-color, color, left;
+  -o-transition-duration: 5s;
+  text-align: center;
+  background-color: blue;
+  left: 90%;
+  color: white;
+  width: 100px;
+  height: 100px;
+}
